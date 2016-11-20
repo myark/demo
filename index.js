@@ -13,7 +13,7 @@ class App extends Component {
     render() {
         return (
             <View>
-                <Text>hello,github</Text>
+                <Text>hello,github.com</Text>
             </View>
         )
     }
