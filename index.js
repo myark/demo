@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import name from './test';
+
 import {
     View,
     Text
@@ -13,7 +15,7 @@ class App extends Component {
     render() {
         return (
             <View>
-                <Text>hello,github.com</Text>
+                <Text>hello,{name}</Text>
             </View>
         )
     }
